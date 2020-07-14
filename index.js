@@ -1,7 +1,12 @@
-function abc (name) {
-    `hello` + name;
-}
+const { number } = require("yargs");
 
-const name = `wow`;
-
-console.log(abc.name)
+Class Human {
+    constructor(name:String, age: number) {
+      this.name = name;
+      this.age = age;
+    }
+  }
+  
+  const WHO = new Human("me", "14")
+  
+  console.log(WHO)
